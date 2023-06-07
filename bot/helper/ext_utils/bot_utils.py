@@ -35,17 +35,17 @@ PAGE_NO = 1
 
 
 class MirrorStatus:
-    STATUS_UPLOADING = "Uploading"
-    STATUS_DOWNLOADING = "Downloading"
-    STATUS_CLONING = "Cloning"
-    STATUS_QUEUEDL = "DL waiting"
-    STATUS_QUEUEUP = "UL waiting"
-    STATUS_PAUSED = "Paused"
-    STATUS_ARCHIVING = "Archiving"
-    STATUS_EXTRACTING = "Extracting"
-    STATUS_SPLITTING = "Splitting"
-    STATUS_CHECKING = "CheckUp"
-    STATUS_SEEDING = "Seeding"
+    STATUS_UPLOADING = "🚀Uploading"
+    STATUS_DOWNLOADING = "💤Downloading"
+    STATUS_CLONING = "🔥Cloning"
+    STATUS_QUEUEDL = "✅DL waiting"
+    STATUS_QUEUEUP = "🤔UL waiting"
+    STATUS_PAUSED = "🥹Paused"
+    STATUS_ARCHIVING = "🕛Archiving"
+    STATUS_EXTRACTING = "🆘Extracting"
+    STATUS_SPLITTING = "🤧Splitting"
+    STATUS_CHECKING = "💦CheckUp"
+    STATUS_SEEDING = "🫦Seeding"
 
 class setInterval:
     def __init__(self, interval, action):
@@ -121,12 +121,12 @@ def progress_bar(pct):
     p = min(max(pct, 0), 100)
     cFull = int(p / 10)
     cIncomplete = int(round((p / 10 - cFull) * 4))
-    p_str = '●' * cFull
+    p_str = '▮' * cFull
     if cIncomplete > 0:
-        s = '◔◑◕●'
+        s = '▮▯▮▯'
         incomplete_char = s[cIncomplete - 1]
         p_str += incomplete_char
-    p_str += '○' * (10 - len(p_str))
+    p_str += '▯' * (10 - len(p_str))
     return p_str
 
 def get_readable_message():
