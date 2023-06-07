@@ -22,7 +22,7 @@ aria2 = ariaAPI(ariaClient(host="http://localhost", port=6800, secret=""))
 
 LOGGER = getLogger(__name__)
 
-rawowners = "<h1 style='text-align: center'>Modified by <a href='https://github.com/5hojib'>5hojib</a></h1>"
+rawowners = "<h1 style='text-align: center'>Modified by <a href='https://github.com/Anuragben10'>Anuragben10</a></h1>"
 
 pin_entry = '''
     <section>
@@ -88,8 +88,8 @@ rawindexpage = '''
         </div>
         <h2 class="name">Qbittorrent Selection</h2>
         <div class="social">
-            <a href="https://www.github.com/5hojib"><i class="fab fa-github"></i></a>
-            <a href="https://t.me/JuniorXcientist"><i class="fab fa-telegram"></i></a>
+            <a href="https://www.github.com/Anuragben10"><i class="fab fa-github"></i></a>
+            <a href="https://t.me/NUMBER03ANURAG"><i class="fab fa-telegram"></i></a>
         </div>
     </header>
     <!-- pin_entry -->
