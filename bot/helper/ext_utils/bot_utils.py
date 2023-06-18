@@ -35,15 +35,15 @@ PAGE_NO = 1
 
 
 class MirrorStatus:
-    STATUS_UPLOADING = "🚀𝕌𝕡𝕝𝕠𝕒𝕕𝕚𝕟𝕘"
-    STATUS_DOWNLOADING = "💤𝑫𝒐𝒘𝒏𝒍𝒐𝒂𝒅𝒊𝒏𝒈"
-    STATUS_CLONING = "🔥𝙲𝚕𝚘𝚗𝚒𝚗𝚐"
+    STATUS_UPLOADING = "🚀𝕌𝕡𝕝𝕠𝕒𝕕𝕚𝕟𝕘 ⒷⓈⒹⓀ ⓇⓊⓀⒿⒶ ⒽⓄ ⓇⒶⒽⒶ ⒽⒶⒾ"
+    STATUS_DOWNLOADING = "💤𝑫𝒐𝒘𝒏𝒍𝒐𝒂𝒅𝒊𝒏𝒈 ᎥᏆᏁᎥ jᎪᏞᎠᎥ ᏦᎪᎥᏦᎾ bᎬ"
+    STATUS_CLONING = "🔥𝙲𝚕𝚘𝚗𝚒𝚗𝚐 𝙷𝚘 𝚐𝚊𝚢𝚊 𝟷 𝚜𝚎𝚌 𝚛𝚞𝚔𝚓𝚊"
     STATUS_QUEUEDL = "✅ᵈˡ ʷᵃⁱᵗⁱⁿᵍ"
     STATUS_QUEUEUP = "🤔ᴜʟ ᴡᴀɪᴛɪɴɢ"
     STATUS_PAUSED = "🥹ραυʂҽԃ"
     STATUS_ARCHIVING = "🕛ǟʀƈɦɨʋɨռɢ"
-    STATUS_EXTRACTING = "🆘ᎬxᏆᏒᎪᏟᏆᎥᏁᎶ"
-    STATUS_SPLITTING = "🤧Ŝᑭㄥ𝐈𝓉𝓉𝐈Ň𝔾"
+    STATUS_EXTRACTING = "🆘ᎬxᏆᏒᎪᏟᏆᎥᏁᎶ ǟɮɦɨ ӄʏǟ ӄʏǟ ɛӼȶʀǟƈȶ ɦօӄɛ ռɨӄʟɛɢǟ քǟȶǟ ռɦɨ😂"
+    STATUS_SPLITTING = "🤧Ŝᑭㄥ𝐈𝓉𝓉𝐈Ň𝔾 𝗟𝗢𝗗𝗘 𝗟𝗔𝗚𝗔 𝗗𝗜𝗬𝗘 𝗡𝗔 𝗕𝗦𝗗𝗞 𝗕𝗘𝗧𝗘 /𝗕𝗘𝗧𝗜"
     STATUS_CHECKING = "💦cհҽckմթ"
     STATUS_SEEDING = "🫦𝔖𝔢𝔢𝔡𝔦𝔫𝔤"
 
